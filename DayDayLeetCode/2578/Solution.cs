@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//https://leetcode.cn/problems/split-with-minimum-sum/solutions/2470641/zui-xiao-he-fen-ge-by-leetcode-solution-6fde/
 namespace DayDayLeetCode._2578
 {
     public class Solution
