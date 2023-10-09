@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DayDayLeetCode._2034;
+using DayDayLeetCode._2578;
 using DayDayLeetCode._901;
 
 Console.WriteLine("Hello, World!");
@@ -18,31 +19,39 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region 2034
+//{
+//    StockPrice stockPrice = new StockPrice();
+//    stockPrice.Update(1, 10);
+//    stockPrice.Update(2, 5);
+//    Console.WriteLine(stockPrice.Current());
+//    Console.WriteLine(stockPrice.Minimum());
+//    Console.WriteLine(stockPrice.Maximum());
+//    stockPrice.Update(1, 3);
+//    Console.WriteLine(stockPrice.Current());
+//    Console.WriteLine(stockPrice.Minimum());
+//    Console.WriteLine(stockPrice.Maximum());
+//    stockPrice.Update(1, 2);
+//    stockPrice.Update(2, 2);
+//    stockPrice.Update(3, 2);
+//    stockPrice.Update(4, 2);
+//    stockPrice.Update(5, 2);
+//    stockPrice.Update(6, 2);
+//    stockPrice.Update(6, 3);
+//    stockPrice.Update(6, 4);
+//    stockPrice.Update(6, 1);
+//    stockPrice.Update(6, 2);
+//    stockPrice.Update(6, 4);
+//    Console.WriteLine(stockPrice.Current());
+//    Console.WriteLine(stockPrice.Minimum());
+//    Console.WriteLine(stockPrice.Maximum());
+//}
+#endregion
+
+#region 2578
 {
-    StockPrice stockPrice = new StockPrice();
-    stockPrice.Update(1, 10);
-    stockPrice.Update(2, 5);
-    Console.WriteLine(stockPrice.Current());
-    Console.WriteLine(stockPrice.Minimum());
-    Console.WriteLine(stockPrice.Maximum());
-    stockPrice.Update(1, 3);
-    Console.WriteLine(stockPrice.Current());
-    Console.WriteLine(stockPrice.Minimum());
-    Console.WriteLine(stockPrice.Maximum());
-    stockPrice.Update(1, 2);
-    stockPrice.Update(2, 2);
-    stockPrice.Update(3, 2);
-    stockPrice.Update(4, 2);
-    stockPrice.Update(5, 2);
-    stockPrice.Update(6, 2);
-    stockPrice.Update(6, 3);
-    stockPrice.Update(6, 4);
-    stockPrice.Update(6, 1);
-    stockPrice.Update(6, 2);
-    stockPrice.Update(6, 4);
-    Console.WriteLine(stockPrice.Current());
-    Console.WriteLine(stockPrice.Minimum());
-    Console.WriteLine(stockPrice.Maximum());
+    Solution solution = new Solution();
+    Console.WriteLine(solution.SplitNum(4325));
+    Console.WriteLine(solution.SplitNum(687));
 }
 #endregion
 
