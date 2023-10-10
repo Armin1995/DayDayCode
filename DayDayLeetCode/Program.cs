@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using DayDayLeetCode._2034;
-using DayDayLeetCode._2578;
-using DayDayLeetCode._901;
+//using DayDayLeetCode._2034;
+//using DayDayLeetCode._2578;
+//using DayDayLeetCode._901;
+using DayDayLeetCode._2731;
 
 Console.WriteLine("Hello, World!");
 
@@ -48,10 +49,18 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region 2578
+//{
+//    Solution solution = new Solution();
+//    Console.WriteLine(solution.SplitNum(4325));
+//    Console.WriteLine(solution.SplitNum(687));
+//}
+#endregion
+
+#region 2731
 {
     Solution solution = new Solution();
-    Console.WriteLine(solution.SplitNum(4325));
-    Console.WriteLine(solution.SplitNum(687));
+    Console.WriteLine(solution.SumDistance(new int[] { -2, 0, 2 }, "RLL", 3));
+    Console.WriteLine(solution.SumDistance(new int[] { 1, 0 }, "RL", 2));
 }
 #endregion
 
