@@ -2,7 +2,8 @@
 //using DayDayLeetCode._2034;
 //using DayDayLeetCode._2578;
 //using DayDayLeetCode._901;
-using DayDayLeetCode._2731;
+//using DayDayLeetCode._2731;
+using DayDayLeetCode._2512;
 
 Console.WriteLine("Hello, World!");
 
@@ -57,10 +58,23 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region 2731
+//{
+//    Solution solution = new Solution();
+//    Console.WriteLine(solution.SumDistance(new int[] { -2, 0, 2 }, "RLL", 3));
+//    Console.WriteLine(solution.SumDistance(new int[] { 1, 0 }, "RL", 2));
+//}
+#endregion
+
+#region 2512 奖励最顶尖的 K 名学生
 {
+    var positive_feedback = new string[] { "fkeofjpc", "qq", "iio" };
+    var negative_feedback = new string[] { "jdh", "khj", "eget", "rjstbhe", "yzyoatfyx", "wlinrrgcm" };
+    var report = new string[] { "rjstbhe eget kctxcoub urrmkhlmi yniqafy fkeofjpc iio yzyoatfyx khj iio", "gpnhgabl qq qq fkeofjpc dflidshdb qq iio khj qq yzyoatfyx", "tizpzhlbyb eget z rjstbhe iio jdh jdh iptxh qq rjstbhe", "jtlghe wlinrrgcm jnkdbd k iio et rjstbhe iio qq jdh", "yp fkeofjpc lkhypcebox rjstbhe ewwykishv egzhne jdh y qq qq", "fu ql iio fkeofjpc jdh luspuy yzyoatfyx li qq v", "wlinrrgcm iio qq omnc sgkt tzgev iio iio qq qq", "d vhg qlj khj wlinrrgcm qq f jp zsmhkjokmb rjstbhe" };
+    var student_id = new int[] { 96537918, 589204657, 765963609, 613766496, 43871615, 189209587, 239084671, 908938263 };
+    var k = 3;
     Solution solution = new Solution();
-    Console.WriteLine(solution.SumDistance(new int[] { -2, 0, 2 }, "RLL", 3));
-    Console.WriteLine(solution.SumDistance(new int[] { 1, 0 }, "RL", 2));
+    var result = solution.TopStudents(positive_feedback, negative_feedback, report, student_id, k);
+    Console.WriteLine(string.Join(',', result));
 }
 #endregion
 
