@@ -3,7 +3,8 @@
 //using DayDayLeetCode._2578;
 //using DayDayLeetCode._901;
 //using DayDayLeetCode._2731;
-using DayDayLeetCode._2512;
+//using DayDayLeetCode._2512;
+using DayDayLeetCode._2562;
 
 Console.WriteLine("Hello, World!");
 
@@ -66,15 +67,23 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region 2512 奖励最顶尖的 K 名学生
+//{
+//    var positive_feedback = new string[] { "fkeofjpc", "qq", "iio" };
+//    var negative_feedback = new string[] { "jdh", "khj", "eget", "rjstbhe", "yzyoatfyx", "wlinrrgcm" };
+//    var report = new string[] { "rjstbhe eget kctxcoub urrmkhlmi yniqafy fkeofjpc iio yzyoatfyx khj iio", "gpnhgabl qq qq fkeofjpc dflidshdb qq iio khj qq yzyoatfyx", "tizpzhlbyb eget z rjstbhe iio jdh jdh iptxh qq rjstbhe", "jtlghe wlinrrgcm jnkdbd k iio et rjstbhe iio qq jdh", "yp fkeofjpc lkhypcebox rjstbhe ewwykishv egzhne jdh y qq qq", "fu ql iio fkeofjpc jdh luspuy yzyoatfyx li qq v", "wlinrrgcm iio qq omnc sgkt tzgev iio iio qq qq", "d vhg qlj khj wlinrrgcm qq f jp zsmhkjokmb rjstbhe" };
+//    var student_id = new int[] { 96537918, 589204657, 765963609, 613766496, 43871615, 189209587, 239084671, 908938263 };
+//    var k = 3;
+//    Solution solution = new Solution();
+//    var result = solution.TopStudents(positive_feedback, negative_feedback, report, student_id, k);
+//    Console.WriteLine(string.Join(',', result));
+//}
+#endregion
+
+#region 2562. 找出数组的串联值
 {
-    var positive_feedback = new string[] { "fkeofjpc", "qq", "iio" };
-    var negative_feedback = new string[] { "jdh", "khj", "eget", "rjstbhe", "yzyoatfyx", "wlinrrgcm" };
-    var report = new string[] { "rjstbhe eget kctxcoub urrmkhlmi yniqafy fkeofjpc iio yzyoatfyx khj iio", "gpnhgabl qq qq fkeofjpc dflidshdb qq iio khj qq yzyoatfyx", "tizpzhlbyb eget z rjstbhe iio jdh jdh iptxh qq rjstbhe", "jtlghe wlinrrgcm jnkdbd k iio et rjstbhe iio qq jdh", "yp fkeofjpc lkhypcebox rjstbhe ewwykishv egzhne jdh y qq qq", "fu ql iio fkeofjpc jdh luspuy yzyoatfyx li qq v", "wlinrrgcm iio qq omnc sgkt tzgev iio iio qq qq", "d vhg qlj khj wlinrrgcm qq f jp zsmhkjokmb rjstbhe" };
-    var student_id = new int[] { 96537918, 589204657, 765963609, 613766496, 43871615, 189209587, 239084671, 908938263 };
-    var k = 3;
     Solution solution = new Solution();
-    var result = solution.TopStudents(positive_feedback, negative_feedback, report, student_id, k);
-    Console.WriteLine(string.Join(',', result));
+    Console.WriteLine(solution.FindTheArrayConcVal(new int[] { 7, 52, 2, 4 })); ;
+    Console.WriteLine(solution.FindTheArrayConcVal(new int[] { 5, 14, 13, 8, 12 })); ;
 }
 #endregion
 
