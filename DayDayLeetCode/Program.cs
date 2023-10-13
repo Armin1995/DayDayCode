@@ -4,7 +4,8 @@
 //using DayDayLeetCode._901;
 //using DayDayLeetCode._2731;
 //using DayDayLeetCode._2512;
-using DayDayLeetCode._2562;
+//using DayDayLeetCode._2562;
+using DayDayLeetCode._1488;
 
 Console.WriteLine("Hello, World!");
 
@@ -80,10 +81,22 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region 2562. 找出数组的串联值
+//{
+//    Solution solution = new Solution();
+//    Console.WriteLine(solution.FindTheArrayConcVal(new int[] { 7, 52, 2, 4 })); ;
+//    Console.WriteLine(solution.FindTheArrayConcVal(new int[] { 5, 14, 13, 8, 12 })); ;
+//}
+#endregion
+
+#region 1488. 避免洪水泛滥
 {
     Solution solution = new Solution();
-    Console.WriteLine(solution.FindTheArrayConcVal(new int[] { 7, 52, 2, 4 })); ;
-    Console.WriteLine(solution.FindTheArrayConcVal(new int[] { 5, 14, 13, 8, 12 })); ;
+    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 0, 0, 2, 1 })));
+    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 3, 4 })));
+    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 0, 1, 2 })));
+    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 0, 0, 1, 1 })));
+    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 0, 0, 0, 1, 2, 1 })));
+    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 0, 2, 0, 2, 1 })));
 }
 #endregion
 
