@@ -5,7 +5,8 @@
 //using DayDayLeetCode._2731;
 //using DayDayLeetCode._2512;
 //using DayDayLeetCode._2562;
-using DayDayLeetCode._1488;
+//using DayDayLeetCode._1488;
+using DayDayLeetCode._137;
 
 Console.WriteLine("Hello, World!");
 
@@ -89,14 +90,22 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region 1488. 避免洪水泛滥
+//{
+//    Solution solution = new Solution();
+//    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 0, 0, 2, 1 })));
+//    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 3, 4 })));
+//    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 0, 1, 2 })));
+//    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 0, 0, 1, 1 })));
+//    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 0, 0, 0, 1, 2, 1 })));
+//    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 0, 2, 0, 2, 1 })));
+//}
+#endregion
+
+#region 137
 {
     Solution solution = new Solution();
-    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 0, 0, 2, 1 })));
-    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 3, 4 })));
-    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 0, 1, 2 })));
-    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 0, 0, 1, 1 })));
-    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 2, 0, 0, 0, 1, 2, 1 })));
-    Console.WriteLine(string.Join(",", solution.AvoidFlood(new int[] { 1, 0, 2, 0, 2, 1 })));
+    Console.WriteLine(solution.SingleNumber(new int[] { 2, 2, 3, 2 })); ;
+    Console.WriteLine(solution.SingleNumber(new int[] { 0, 1, 0, 1, 0, 1, 99 })); ;
 }
 #endregion
 
