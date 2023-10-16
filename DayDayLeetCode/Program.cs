@@ -6,7 +6,8 @@
 //using DayDayLeetCode._2512;
 //using DayDayLeetCode._2562;
 //using DayDayLeetCode._1488;
-using DayDayLeetCode._137;
+//using DayDayLeetCode._137;
+using DayDayLeetCode._260;
 
 Console.WriteLine("Hello, World!");
 
@@ -101,11 +102,20 @@ Console.WriteLine("Hello, World!");
 //}
 #endregion
 
-#region 137
+#region 137 只出现一次的数字 II
+//{
+//    Solution solution = new Solution();
+//    Console.WriteLine(solution.SingleNumber(new int[] { 2, 2, 3, 2 })); ;
+//    Console.WriteLine(solution.SingleNumber(new int[] { 0, 1, 0, 1, 0, 1, 99 })); ;
+//}
+#endregion
+
+#region 260 只出现一次的数字 III
 {
     Solution solution = new Solution();
-    Console.WriteLine(solution.SingleNumber(new int[] { 2, 2, 3, 2 })); ;
-    Console.WriteLine(solution.SingleNumber(new int[] { 0, 1, 0, 1, 0, 1, 99 })); ;
+    Console.WriteLine(string.Join(",", solution.SingleNumber(new int[] { 1, 2, 1, 3, 2, 5 })));
+    Console.WriteLine(string.Join(",", solution.SingleNumber(new int[] { -1, 0 })));
+    Console.WriteLine(string.Join(",", solution.SingleNumber(new int[] { 0, 1 })));
 }
 #endregion
 

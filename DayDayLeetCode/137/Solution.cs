@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DayDayLeetCode._137
 {
+    /// <summary>
+    /// 只出现一次的数字 II
+    /// </summary>
     public class Solution
     {
         public int SingleNumber(int[] nums)
