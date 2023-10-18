@@ -7,7 +7,8 @@
 //using DayDayLeetCode._2562;
 //using DayDayLeetCode._1488;
 //using DayDayLeetCode._137;
-using DayDayLeetCode._260;
+//using DayDayLeetCode._260;
+using DayDayLeetCode._2530;
 
 Console.WriteLine("Hello, World!");
 
@@ -111,11 +112,18 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region 260 只出现一次的数字 III
+//{
+//    Solution solution = new Solution();
+//    Console.WriteLine(string.Join(",", solution.SingleNumber(new int[] { 1, 2, 1, 3, 2, 5 })));
+//    Console.WriteLine(string.Join(",", solution.SingleNumber(new int[] { -1, 0 })));
+//    Console.WriteLine(string.Join(",", solution.SingleNumber(new int[] { 0, 1 })));
+//}
+#endregion
+
+#region 2530 执行 K 次操作后的最大分数
 {
     Solution solution = new Solution();
-    Console.WriteLine(string.Join(",", solution.SingleNumber(new int[] { 1, 2, 1, 3, 2, 5 })));
-    Console.WriteLine(string.Join(",", solution.SingleNumber(new int[] { -1, 0 })));
-    Console.WriteLine(string.Join(",", solution.SingleNumber(new int[] { 0, 1 })));
+    Console.WriteLine(solution.MaxKelements(new int[] { 1, 10, 3, 3, 3 }, 5));
 }
 #endregion
 
