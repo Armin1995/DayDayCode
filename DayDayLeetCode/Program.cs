@@ -8,7 +8,8 @@
 //using DayDayLeetCode._1488;
 //using DayDayLeetCode._137;
 //using DayDayLeetCode._260;
-using DayDayLeetCode._2530;
+//using DayDayLeetCode._2530;
+using DayDayLeetCode._1726;
 
 Console.WriteLine("Hello, World!");
 
@@ -121,9 +122,16 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region 2530 执行 K 次操作后的最大分数
+//{
+//    Solution solution = new Solution();
+//    Console.WriteLine(solution.MaxKelements(new int[] { 1, 10, 3, 3, 3 }, 5));
+//}
+#endregion
+
+#region 1726. 同积元组
 {
     Solution solution = new Solution();
-    Console.WriteLine(solution.MaxKelements(new int[] { 1, 10, 3, 3, 3 }, 5));
+    Console.WriteLine(solution.TupleSameProduct(new int[] { 1, 2, 3, 4, 6, 12 }));
 }
 #endregion
 
