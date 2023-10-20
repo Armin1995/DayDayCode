@@ -9,7 +9,8 @@
 //using DayDayLeetCode._137;
 //using DayDayLeetCode._260;
 //using DayDayLeetCode._2530;
-using DayDayLeetCode._1726;
+//using DayDayLeetCode._1726;
+using DayDayLeetCode._2525;
 
 Console.WriteLine("Hello, World!");
 
@@ -129,9 +130,16 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region 1726. 同积元组
+//{
+//    Solution solution = new Solution();
+//    Console.WriteLine(solution.TupleSameProduct(new int[] { 1, 2, 3, 4, 6, 12 }));
+//}
+#endregion
+
+#region 2525. 根据规则将箱子分类
 {
     Solution solution = new Solution();
-    Console.WriteLine(solution.TupleSameProduct(new int[] { 1, 2, 3, 4, 6, 12 }));
+    Console.WriteLine(solution.CategorizeBox(9999, 9999, 9999, 99));
 }
 #endregion
 
