@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayDayLeetCode", "DayDayLee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayDayQuant", "DayDayQuant\DayDayQuant.csproj", "{C8C682F0-BAB4-4B45-9241-61CB5C4049F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayDayLeetCodeTests", "DayDayLeetCodeTests\DayDayLeetCodeTests.csproj", "{402E9413-CB13-447C-A8A2-FE7600148649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayDayLeetCodeTests", "DayDayLeetCodeTests\DayDayLeetCodeTests.csproj", "{402E9413-CB13-447C-A8A2-FE7600148649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myMLApp", "myMLApp\myMLApp.csproj", "{3FFDBF20-A517-4EAD-90DB-6CD5B526B4CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{402E9413-CB13-447C-A8A2-FE7600148649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402E9413-CB13-447C-A8A2-FE7600148649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402E9413-CB13-447C-A8A2-FE7600148649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFDBF20-A517-4EAD-90DB-6CD5B526B4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFDBF20-A517-4EAD-90DB-6CD5B526B4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFDBF20-A517-4EAD-90DB-6CD5B526B4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFDBF20-A517-4EAD-90DB-6CD5B526B4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
