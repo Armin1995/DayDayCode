@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayDayLeetCode", "DayDayLeetCode\DayDayLeetCode.csproj", "{ABF59ACF-B9FE-41C2-BD54-F93B718F0601}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayDayQuant", "DayDayQuant\DayDayQuant.csproj", "{C8C682F0-BAB4-4B45-9241-61CB5C4049F3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayDayLeetCodeTests", "DayDayLeetCodeTests\DayDayLeetCodeTests.csproj", "{402E9413-CB13-447C-A8A2-FE7600148649}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{ABF59ACF-B9FE-41C2-BD54-F93B718F0601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABF59ACF-B9FE-41C2-BD54-F93B718F0601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABF59ACF-B9FE-41C2-BD54-F93B718F0601}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8C682F0-BAB4-4B45-9241-61CB5C4049F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8C682F0-BAB4-4B45-9241-61CB5C4049F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8C682F0-BAB4-4B45-9241-61CB5C4049F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8C682F0-BAB4-4B45-9241-61CB5C4049F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{402E9413-CB13-447C-A8A2-FE7600148649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{402E9413-CB13-447C-A8A2-FE7600148649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402E9413-CB13-447C-A8A2-FE7600148649}.Release|Any CPU.ActiveCfg = Release|Any CPU
