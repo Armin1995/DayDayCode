@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayDayLeetCode", "DayDayLee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayDayLeetCodeTests", "DayDayLeetCodeTests\DayDayLeetCodeTests.csproj", "{402E9413-CB13-447C-A8A2-FE7600148649}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayDayRevit", "DayDayRevit\DayDayRevit.csproj", "{26FDD5ED-ED1B-49F1-8A7D-8E3D51D4ED24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayDayCore", "DayDayCore\DayDayCore.csproj", "{ED78BDAB-4E17-49D1-A3F2-AE2064B637D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{402E9413-CB13-447C-A8A2-FE7600148649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402E9413-CB13-447C-A8A2-FE7600148649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402E9413-CB13-447C-A8A2-FE7600148649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26FDD5ED-ED1B-49F1-8A7D-8E3D51D4ED24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FDD5ED-ED1B-49F1-8A7D-8E3D51D4ED24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FDD5ED-ED1B-49F1-8A7D-8E3D51D4ED24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FDD5ED-ED1B-49F1-8A7D-8E3D51D4ED24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED78BDAB-4E17-49D1-A3F2-AE2064B637D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED78BDAB-4E17-49D1-A3F2-AE2064B637D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED78BDAB-4E17-49D1-A3F2-AE2064B637D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED78BDAB-4E17-49D1-A3F2-AE2064B637D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
